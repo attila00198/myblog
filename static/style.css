@@ -1,0 +1,41 @@
+html {
+    margin: 0;
+    padding: 0;
+    background: rgb(70, 70, 70);
+    color: rgb(204, 204, 204);
+    font-size: 18tp;
+}
+
+h1, h2, h3 {
+    color: white;
+    font-style: bold;
+}
+
+a, a:link, a:active {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gold;
+}
+
+head {
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 10px;
+    padding: 5px;
+}
+
+nav ul li a {
+    display: block;
+}
